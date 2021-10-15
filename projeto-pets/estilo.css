@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(./img/fachadaPrincipal.png);
+    background-repeat: no-repeat;
+    width: 1900px;
+}
