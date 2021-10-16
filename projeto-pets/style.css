@@ -4,18 +4,28 @@ body{
     font-family: Teko;
 }
 
+.teste{
+    border: 1px solid green;
+}
+
+.teste2{
+    border: 1px solid red;
+}
+
+
+
 li,a{
     list-style: none;
     text-decoration: none;
 }
 .container-pink{
-    width: 100vw;
+    width: 100%;
     height: 30px;
     background-color: #F2BFBB;
 }
 
 .container{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background: rgba(234, 242, 223, 0.67);
@@ -117,7 +127,7 @@ li,a{
 }
 
 .salvando-vidas{
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     font-family: Teko;
     font-style: normal;
@@ -129,78 +139,62 @@ li,a{
     padding-top: 1em;
 }
 
-.row-conteudo-2 {
+.container-salvando-animais{
     display: flex;
-    align-items: center;
     width: 100%;
-    flex-direction: row;
+    height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 40px;
     justify-content: center;
     
-}
-
-.row-conteudo-2 p {
-    font-family: Teko;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 75px;
-    text-align: center;
-    align-items: center;
-    margin: 0;
-    padding: 15px 0 15px 0;
-    color: #5D6799;
 
 }
-
-.conteudo-2 {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    padding: 0 5% 0 5%; 
-    box-sizing: border-box;
-    
-}
-
-.row-conteudo-3 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.caixa {
+.card{
     background: #FFFFFF;
     width: 250px;
-    height: 300px;
-    box-sizing: border-box;
+    min-height: 300px;
     max-height: 80%;
     padding: 10px;
-    align-content: flex-end;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 30px;
 }
 
-.caixa p{
+.card p {
     font-family: Teko;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 112.3%;
-    align-self: flex-end;
-    text-align: center;
-    letter-spacing: 0.0005em;
+    text-align: justify;
+    letter-spacing: 0.005em;
+    color: #000000;
+
+
 }
 
-.foto-caixa {
-   align-self: flex-start;
+.section{
+    margin-top: 100px;
+    background: #F6F6F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-
 .vira-lata{
+    padding: 30px;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    
     
     
 }
+.texto{
+    width: 40%;
+}
+.imagem{
+    margin-left: 40px;
+}
+
+
 
 .vira-lata h2{
     font-family: Teko;
@@ -216,9 +210,11 @@ li,a{
     font-family: Teko;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 44px;
     text-align: justify;
     color: #000000;
+    
 }
+
 
