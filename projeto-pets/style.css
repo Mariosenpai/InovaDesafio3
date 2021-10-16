@@ -216,5 +216,188 @@ li,a{
     color: #000000;
     
 }
+.adocao{
+    padding: 3em 0;
+    background: #EBEBEB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
+.adocao h2{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 57px;
+    color: #000000;
+
+}
+
+.adocao p{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 52px;
+    color: #000000;
+
+}
+.adocao-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.adocao-section-container{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.cardzinho{
+    width: 200px;
+    text-align: center;
+}
+.icones{
+    width: 50px;
+    height: 54px;
+    margin-bottom: 0.5em;
+}
+
+.cardzinho p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    background: #F6F6F6;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1.5em 0;
+}
+
+.localizacao{
+    width: 50%;
+    text-align: center;
+}
+
+.localizacao h2{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+
+.localizacao h3{
+    margin-top: 0.5em;
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+
+.localizacao p{
+    margin-top: 1em;
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+
+}
+.contato{
+    width: 50%;
+    justify-content: center;
+    
+}
+
+.section-contato{
+    text-align: center;
+}
+
+.section-contato h2{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F5034E;
+    border-radius: 4px;
+    width: 200px;
+    margin: 0.6em auto;
+
+}
+
+.section-contato p {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 104.3%;
+    text-align: center;
+    color: #000000;
+
+}
+.formulario{
+    margin: 40px auto;
+    
+    
+    
+}
+
+.formulario label, .formulario legend{
+    display: block;
+    font-size: 30px;
+    margin: 15px 150px;
+    
+}
+
+.input-padrao{
+    display: block;
+    padding: 20px 40px;
+    width: 50%;
+    border-radius: 4px;
+    margin: 0 auto;
+    background: #C4C4C4;
+}
+
+.rodape{
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1em 0;
+
+}
+
+.rodape p{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.logos{
+    width: 30px;
+    margin-left: 1em;
+}
 
