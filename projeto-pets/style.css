@@ -55,6 +55,11 @@ li,a{
     color: #000000;
 }
 
+.menu a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+
 .row{
     display: flex;
 }
@@ -64,16 +69,17 @@ li,a{
     flex-direction: column;
 }
 
+.button-saiba-mais:hover{
+    height: 51px;
+    width: 120px;
+}
+
 .container-principal{
     width: 100%;
     height: 100vh;
     background-image: url(./img/fachadaPrincipal.png);
     background-repeat: no-repeat;
     padding-bottom: 180px;
-
-
-    
-    
 
 }
 
