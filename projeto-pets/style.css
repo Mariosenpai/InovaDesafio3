@@ -407,6 +407,7 @@ li,a{
     margin-left: 1em;
 }
 
+
 @media screen and (max-width: 600px) {
     .container-pink {
         width: 100vw;
@@ -422,7 +423,10 @@ li,a{
         box-shadow: 0px 5px 10px rgba(16, 16, 16, 0.25);
     }
     .logo {
+        margin-top: 60px;
         text-align: center;
+        width: 50vw;
+        height: 10%;
     }
     .menu {
         display: flex;
@@ -443,6 +447,9 @@ li,a{
     }
     .row {
         display: flex;
+        width: 100px;
+        height: 100px;
+        margin-left: -30px;
     }
     .column {
         display: flex;
@@ -453,8 +460,8 @@ li,a{
         width: 50px;
     }
     .container-principal {
-        width: 50%;
-        height: 50vh;
+        width: 100%;
+        height: 100vh;
         background-image: url(./img/fachadaPrincipal.png);
         background-repeat: no-repeat;
         padding-bottom: 80px;
@@ -498,8 +505,9 @@ li,a{
         width: 200px;
         height: 200px;
         padding-top: 60px;
-        padding-left: 36px;
-        margin-left: 50px;
+        padding-left: 16px;
+        margin-left: 20px;
+        margin-top: 50px;
     }
     .salvando-vidas {
         width: 70%;
@@ -512,41 +520,46 @@ li,a{
         text-align: center;
         color: #5D6799;
         padding-top: 1em;
-        margin-left: 50px;
-        margin-top: -90%;
+        margin-left: 10px;
+        margin-top: -410px;
     }
     .container-salvando-animais {
+        width: 100%;
         display: flex;
-        width: 50%;
-        height: fit-content;
         margin-top: 10px;
-        margin-bottom: 10px;
-        justify-content: center;
+        margin-bottom: -10px;
     }
-    .card {
+    .card img {
+        width: 100%;
         background: #FFFFFF;
-        width: 150vw;
-        min-height: 70vh;
-        max-height: 40%;
-        padding: 10px;
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
         border-radius: 05px;
-        margin-left: 10px;
+        min-height: 40px;
+        max-height: 20%;
+        margin-left: 02px;
         float: left;
-        width: 50%;
+    }
+    .card {
+        width: 100%;
+        height: 10vh;
+        background: #FFFFFF;
+        padding: 20px;
+        border-radius: 05px;
+        min-height: 80px;
+        max-height: 30%;
+        margin-left: 03px;
     }
     .card p {
+        width: 100%;
         font-family: Teko;
         font-style: normal;
-        font-weight: 500;
         font-size: 10px;
-        line-height: 80.3%;
         text-align: justify;
-        letter-spacing: 0.005em;
+        letter-spacing: 0.002em;
         color: #000000;
     }
     .section {
-        margin-top: 50px;
+        margin-top: 90px;
         background: #F6F6F6;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
@@ -556,8 +569,200 @@ li,a{
         height: 100px;
         justify-content: center;
     }
-    .texto {
+    .imagem column {
+        padding: 03px;
         width: 50vw;
+        height: 100vh;
+        justify-content: center;
+    }
+    .texto {
+        width: 20%;
+        text-align: center;
+        height: 10vh;
+    }
+    .imagem {
+        margin-left: 200%;
+    }
+    .vira-lata h2 {
+        font-family: Teko;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: #5D6799;
+    }
+    .vira-lata p {
+        font-family: Teko;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: justify;
+        color: #000000;
+    }
+    .adocao {
+        padding: 3em 0;
+        background: #EBEBEB;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .adocao h2 {
+        margin-top: 100%;
+        font-family: Teko;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 07px;
+        color: #000000;
+    }
+    .adocao p {
+        margin-top: 100%;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 22px;
+        color: #000000;
+    }
+    .adocao-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .adocao-section-container {
+        margin-top: 440px;
+        margin-bottom: 3em;
+    }
+    .cardzinho {
+        margin-top: 100%;
+        text-align: center;
+    }
+    .icones {
+        margin-top: 100%;
+        width: 20;
+        height: 24vh;
+        margin-bottom: 0.5em;
+    }
+    .cardzinho p {
+        margin-top: 100%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 13px;
+        text-align: center;
+        color: #000000;
+    }
+    .sobre {
+        margin-top: 100%;
+        display: flex;
+        justify-content: space-around;
+        background: #F6F6F6;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 1.5em 0;
+    }
+    .localizacao {
+        margin-top: 100%;
+        width: 20%;
+        text-align: center;
+    }
+    .localizacao h2 {
+        margin-top: 100%;
+        font-family: Teko;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+    .localizacao h3 {
+        margin-top: 100%;
+        margin-top: 0.5em;
+        font-family: Teko;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 0.5em;
+    }
+    .localizacao p {
+        margin-top: 100%;
+        margin-top: 1em;
+        font-family: Teko;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+    }
+    .contato {
+        margin-top: 100%;
+        width: 50%;
+        justify-content: center;
+    }
+    .section-contato {
+        margin-top: 100%;
+        text-align: center;
+    }
+    .section-contato h2 {
+        margin-top: 100%;
+        font-family: Teko;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #F5034E;
+        border-radius: 4px;
+        width: 100px;
+        margin: 0.6em auto;
+    }
+    .section-contato p {
+        font-family: Teko;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 50.3%;
+        text-align: center;
+        color: #000000;
+    }
+    .formulario {
+        margin: 40px auto;
+    }
+    .formulario label,
+    .formulario legend {
+        display: block;
+        font-size: 20px;
+        margin: 10px 100px;
+    }
+    .input-padrao {
+        display: block;
+        padding: 10px 20px;
+        width: 20%;
+        border-radius: 4px;
+        margin: 0 auto;
+        background: #C4C4C4;
+    }
+    .rodape {
+        background-color: #C4C4C4;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding: 1em 0;
+    }
+    .rodape p {
+        font-family: Teko;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .logos {
+        width: 20px;
+        margin-left: 1em;
     }
 }
 
