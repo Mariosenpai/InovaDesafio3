@@ -434,6 +434,12 @@ Responsividade
 
 @media all and (max-width: 600px) {
 
+    .container-rosa{
+        width: 100vw;
+        height: 20px;
+        background-color: #F2BFBB;
+    }
+
     .menu-header {
         width: 100vw;
         height: 20px;
