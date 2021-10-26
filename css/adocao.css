@@ -60,7 +60,7 @@ menu criado
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url("img/Adote/Adocao_principal.png");
+    background-image: url("../img/Adote/Adocao_principal.png");
     height: 900px;
 }
 
@@ -208,7 +208,7 @@ Contato
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url("img/Adote/final_background.png");
+    background-image: url("../img/Adote/final_background.png");
     height: 800px;
 }
 

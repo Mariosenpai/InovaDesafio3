@@ -488,7 +488,7 @@ Responsividade
     .container-principal {
         width: 100%;
         height: 100vh;
-        background-image: url(./img/fachadaPrincipal.png);
+        background-image: url(../img/fachadaPrincipal.png);
         background-repeat: no-repeat;
         padding-bottom: 80px;
     }
