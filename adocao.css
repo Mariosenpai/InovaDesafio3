@@ -184,7 +184,6 @@ animais
     text-align: center;
 }
 
-
 .card p{
     font-family: Teko;
     font-style: normal;
@@ -194,9 +193,67 @@ animais
     text-align: center;
 }
 
-
 /*
 animais
+ */
+
+/*
+Contato
+ */
+
+.contato{
+    padding-top: 100px;
+    padding-right: 50%;
+    padding-left: 10%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/Adote/final_background.png");
+    height: 800px;
+}
+
+.contato h2{
+    font-family: Lilita One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color:#5D6799;
+}
+
+.contato button{
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 259px;
+    height: 53px;
+    background: #F5034E;
+    border-radius: 4px;
+
+}
+
+.contato button a{
+    font-family: Teko;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contato button a:hover{
+    text-decoration: underline;
+}
+
+.contato button:hover{
+    width: 270px;
+    height: 60px;
+}
+
+/*
+Contato
  */
 
 /*
